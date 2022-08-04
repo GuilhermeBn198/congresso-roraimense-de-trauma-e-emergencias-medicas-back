@@ -16,20 +16,76 @@
       "type": "string",
       "required": true
     },
+    "cpf": {
+      "type": "string",
+      "required": true
+    },
     "email": {
       "type": "email",
       "required": true
     },
-    "payment_voucher": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
+    "celular": {
+      "type": "string",
+      "required": true
+    },
+    "categoria": {
+      "type": "string",
+      "required": true
+    },
+    "comprovante_de_categoria": {
       "allowedTypes": [
         "images",
         "files"
-      ]
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     },
-    "phone": {
+    "semestre_de_graduacao": {
+      "type": "string",
+      "required": false
+    },
+    "instituicao": {
+      "type": "string",
+      "required": true
+    },
+    "pais": {
+      "type": "string",
+      "required": true
+    },
+    "cidade": {
+      "type": "string",
+      "required": true
+    },
+    "uf": {
+      "type": "string",
+      "required": true
+    },
+    "cep": {
+      "type": "string",
+      "required": true
+    },
+    "endereco": {
+      "type": "string",
+      "required": true
+    },
+    "numeros": {
+      "type": "string",
+      "required": true
+    },
+    "bairro": {
+      "type": "string",
+      "required": true
+    },
+    "nome_do_pagador": {
+      "type": "string",
+      "required": true
+    },
+    "cpf_do_pagador": {
+      "type": "string",
+      "required": true
+    },
+    "comprovante_de_pagamento": {
       "type": "string",
       "required": true
     }

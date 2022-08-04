@@ -4,7 +4,7 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Article",
+    "displayName": "Artigo",
     "description": ""
   },
   "options": {
@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "nome": {
       "type": "string",
       "required": true
     },
@@ -20,7 +20,7 @@
       "type": "email",
       "required": true
     },
-    "article_pdf": {
+    "artigo": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -28,7 +28,7 @@
         "files"
       ]
     },
-    "phone": {
+    "celular": {
       "type": "string",
       "required": true
     }
