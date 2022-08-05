@@ -33,13 +33,13 @@
       "required": true
     },
     "comprovante_de_categoria": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     },
     "semestre_de_graduacao": {
       "type": "string",
@@ -86,7 +86,12 @@
       "required": true
     },
     "comprovante_de_pagamento": {
-      "type": "string",
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
       "required": true
     }
   }
