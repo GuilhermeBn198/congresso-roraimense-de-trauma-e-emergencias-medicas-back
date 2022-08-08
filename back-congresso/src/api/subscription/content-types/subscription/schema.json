@@ -69,7 +69,7 @@
       "type": "string",
       "required": true
     },
-    "numeros": {
+    "numero": {
       "type": "string",
       "required": true
     },
@@ -86,13 +86,13 @@
       "required": true
     },
     "comprovante_de_pagamento": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     }
   }
 }

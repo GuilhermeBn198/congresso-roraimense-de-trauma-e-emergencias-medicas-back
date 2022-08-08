@@ -31,6 +31,38 @@
     "celular": {
       "type": "string",
       "required": true
+    },
+    "cpf": {
+      "type": "string",
+      "required": true
+    },
+    "instituicao": {
+      "type": "string",
+      "required": true
+    },
+    "pais": {
+      "type": "string",
+      "required": true
+    },
+    "cidade": {
+      "type": "string",
+      "required": true
+    },
+    "uf": {
+      "type": "string",
+      "required": true
+    },
+    "cep": {
+      "type": "string",
+      "required": true
+    },
+    "endereco": {
+      "type": "string",
+      "required": true
+    },
+    "rua": {
+      "type": "string",
+      "required": true
     }
   }
 }
