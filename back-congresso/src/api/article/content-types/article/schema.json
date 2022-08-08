@@ -59,10 +59,6 @@
     "endereco": {
       "type": "string",
       "required": true
-    },
-    "rua": {
-      "type": "string",
-      "required": true
     }
   }
 }
