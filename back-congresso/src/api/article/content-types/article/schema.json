@@ -59,6 +59,22 @@
     "endereco": {
       "type": "string",
       "required": true
+    },
+    "autores": {
+      "type": "text",
+      "required": true
+    },
+    "titulodoartigo": {
+      "type": "string",
+      "required": true
+    },
+    "areadeestudo": {
+      "type": "string",
+      "required": true
+    },
+    "modalidade": {
+      "type": "string",
+      "required": true
     }
   }
 }
