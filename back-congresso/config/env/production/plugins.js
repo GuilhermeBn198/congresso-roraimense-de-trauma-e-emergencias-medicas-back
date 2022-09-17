@@ -13,4 +13,16 @@ module.exports = {
 		},
 	  },
 	},
+	email: {
+		config: {
+		  provider: "sendgrid", // For community providers pass the full package name (e.g. provider: 'strapi-provider-email-mandrill')
+		  providerOptions: {
+			apiKey: process.env.SENDGRID_API_KEY,
+		  },
+		  settings: {
+			defaultFrom: "congressorrte@gmail.com",
+			defaultReplyTo: "congressorrte@gmail.com",
+		  },
+		},
+	  },
   };
