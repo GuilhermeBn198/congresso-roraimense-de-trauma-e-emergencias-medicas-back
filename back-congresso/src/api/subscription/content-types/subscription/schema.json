@@ -18,7 +18,8 @@
     },
     "cpf": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "email": {
       "type": "email",
@@ -35,7 +36,7 @@
     "comprovante_de_categoria": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files"
@@ -88,11 +89,14 @@
     "comprovante_de_pagamento": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files"
       ]
+    },
+    "confirmado": {
+      "type": "string"
     }
   }
 }
