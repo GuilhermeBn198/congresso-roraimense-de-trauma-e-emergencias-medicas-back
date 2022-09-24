@@ -80,11 +80,11 @@
     },
     "nome_do_pagador": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "cpf_do_pagador": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "comprovante_de_pagamento": {
       "type": "media",
@@ -96,7 +96,22 @@
       ]
     },
     "confirmado": {
-      "type": "string"
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "nomeCracha": {
+      "type": "string",
+      "required": true
+    },
+    "sexo": {
+      "type": "string",
+      "required": true
+    },
+    "rg": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
