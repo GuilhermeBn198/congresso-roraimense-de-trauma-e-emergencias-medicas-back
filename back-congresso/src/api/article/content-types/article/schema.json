@@ -75,6 +75,15 @@
     "modalidade": {
       "type": "string",
       "required": true
+    },
+    "modalidade_apresentacao": {
+      "type": "string",
+      "required": true
+    },
+    "confirmado": {
+      "type": "boolean",
+      "default": false,
+      "required": false
     }
   }
 }
