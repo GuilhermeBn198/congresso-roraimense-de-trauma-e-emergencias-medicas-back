@@ -70,6 +70,18 @@
     "lastname": {
       "type": "string",
       "required": true
+    },
+    "trab_aprovado": {
+      "type": "boolean",
+      "default": false
+    },
+    "hora_apresentacao": {
+      "type": "datetime",
+      "default": "2022-11-17T04:00:00.000Z"
+    },
+    "hora_apresent": {
+      "type": "datetime",
+      "default": "2022-11-17T04:00:00.000Z"
     }
   }
 }
